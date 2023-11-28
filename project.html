@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="project.css">
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find My Car </title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input id="input" type="text" placeholder="Enter Car Name " >
+            <button id="btn" ><img   src="https://logowik.com/content/uploads/images/search7780.jpg"></button>
+        </div>
+
+
+
+        <div class="Cars">
+           <img class="hi"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI1TbTquLNP0ingLoFY4NoFFK5uF2toBHuxA&usqp=CAU" alt="image">
+            <h1 class="Carname">jeep</h1>
+            <h2 class= "carprice">1253010$</h2>
+            <h2 class="colorofthecar"> black</h2>
+            
+           
+                    <img id="1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANsAAAB7CAMAAADKQQWcAAAAZlBMVEX///8AAAC6urrw8PBfX195eXnBwcGqqqpRUVGGhobm5uYjIyNnZ2ebm5tbW1vp6en29vaTk5M6OjrPz8/d3d1HR0e0tLSMjIwbGxsqKirHx8c0NDQXFxehoaHW1tYvLy8QEBBwcHB+QXm+AAAGNklEQVR4nO1b27aqOgxdgNxFbgUUReH/f/LglTZJS2G7zh7s0fkITMxskyZp8efHwMDAwMDAwMDAwMDAwMDA4BeRRQDp37boe/CsWMDF/dsWfQ+eBWC0bQJG2zZhtG0TRts2YbRtE0bbNmG0bRNG2zZhtDnp1U+aJk/8lqWO1ouz9Fon4Z3ijZRsoVmZ46TOYhaAjrY2CfgnitAv517bJjueUrl+q28Tq5MhKOKicjv7T7Zv5rXZuwt8xjrtfOVL95gS7zr4WLvb8zhcH1fLXSGMyuw4rtbGYmTlC77MY9hZShHd2Qa371PLAsSq1qqb0db1Mjsta3cl35gc5ZRAMJPQ1p4oWrIu8NTa9nIzR8Q28cJBTamV2jzJuOxXhZ1KW7ajfocHirpMPRojErm2MpJ6cxx9WdusnZblgddpUKbJhtrYIGcFK2ZOoa2Zt9OKxTjPNSjHTzaA2hIVbVgec3JtrYad4yLGv6xVLCMc5W0l1IYTB4/8e9qcCt7ZN3mILvIhl2lS3okOapvBYq+UagMeeXt5UpaAhHeachbwyNsrsrIOLuzOKm37b2nLxKtcKLNCvPVZ+ACl4ihg7vJV2o5Lc7hMmzhtMe8PqUQ2mLZ5Cqntkl8ZY21IFA3Nd7RF4uSIpWAtMl7eGlUKCpBhS7VN6Y+obxZGnERbrXppKqpoSPPFZJtRFEIbPyI1KmUX9BJybdkgXKsACXjf86JICUCX1wl3jxmtTfQ6lO8W9s20tki8FgISNatgJXFBqgU6GKmtAJUVTB9H7n2hiJxI7bS2UrwGO69S9JZHiruKlARQridMQdrgGELjjpP2EA4LsRtAawPMwRfRXDAF5MM9oOTicOxJbbAgduADU/kKtVXa80Z2UVIEdwouP1S4Udp6aBxqRCYHWq9tkZ1WdfcHaXtC4pQR2vBSAcv1aa1ZrS2CF9U4M9XeA4mYEdrwHowPnpgCcrU2vRZgMnQshkqtFuCDviW04fQFFmRuZldrW1joXcYQtxUbKwR6j/gZXC/+gjboCnOol1NsQhveW4JP7D8K/jdt/irKCm2DVBuV3+Csr9LW/ZY2fZ+0CG1oh8MlXlnslDjYqygrtIVyu4nmDm3j5oSjJo4ao6d4YC3J5ykaa4k8ByA/OSByhNLSfUAZoXcGML/p9JHz2uS5u0XrMmIjt33WdOCaRm+RgboE9gE62uBmJ2y1HgvyCxHKp7CrYjgrPa4DYjBvJ6y54C/paEMHPQ6oa3tubm7IcnF7tkT3reFxA/qChqGwkdTY5IbaUMjA2i/mnGHAtlfTxEfULrBHiqYONQBgjGpQUPkDH+jA/YK7hxLziL7qyjRLr/5AVe79c7hT4AzAKbsq4HG4uwrou62zSPFFyuOwCmmD4wEt5BcoZ1mRx7GhUwqhALPO7bFDAJ1SoMDq+0L1AbBwQuu8kAB1zh54fI4u4M7+iRvSEo7Yc1ZhJ8CfzqEuIf6htInjgU6sYiHsr3g1UWJa7NFhk/tahVJXZhG6MaTPeXBwpslpbbw4B9kO0uzCiZt8gmhPD7nvJ8QBWy+nBBKKbA9vrPTbZ8SzGsUTOA9DEa4Gf2CLx1qGT7usc2D3xHN66DaxGlzXHQp8A511XPEzUgj7bin+YIDGVIFkB03Kqw1b2AIzqG3BC0AJyPR2Cbjjmh+mtz92TpeadgdV+Ol2VqgC1Ns1EUZTy0su77hZpO1MFjr0NxsAR+JDn1J9SHsH/DjiOr/dtfsYuURbLzl8U53/v3AgqSiTQYSo0LzODeQwUaA2VYTX8IfeyDxi2eHQ25KOJFJ+U3GjasZUSRE+t0F9gDx8UIvAw6ZW1efPDdIxGVFL98ILWftpS8cfUNA3GDIvjVFnB8DqEMs7u/XMKXLqk6YWPl6SJwqZDIoOULC2n5IaygP94ZiIzGF1PhyKO4KhqctM54OUjIVFzEVefypyNkOMGkgJMYXQ9pP5YAL689yk/SmYlzfhWC+4Yd55eh++RnbyojSdR55UU9pG1OHuXUreDs1vK3tDa5oBQ0GRaBvLZFaWnm23Jdvsv5al2v4BGG3bhNG2TRht24TRtk0YbdvEv6ytDQ48AlWPvDVkxBm4gYGBgYGBgYGBgYGBgYGBwS/hPyC5WhfFfHXMAAAAAElFTkSuQmCC" alt="image">  
+                   
+                    </div>
+                </div>
+
+
+
+    <script src="project.js"></script> 
+</body>
+</html>
